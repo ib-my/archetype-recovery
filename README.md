@@ -1,4 +1,4 @@
-# Replication package: Coverage, Accuracy and Composite scores
+# Replication package
 
 This package recomputes the evaluation scores reported in the paper from the saved
 graphs (trees). It needs no network access and no connection to the system that
@@ -8,17 +8,17 @@ produced the graphs.
 
 ```
 evaluator/
-    score_evaluator.py      scores each tree -> per-tree reports + run summary
-    overall_evaluator.py    run summary -> overall Zero-shot / One-shot table
+    score_evaluator.py
+    overall_evaluator.py
 input/
-    <dataset>-original_ground_truth_full.json    ground truth, one per dataset
-    model_names.csv                              system label -> model name shown in the table
+    <dataset>-original_ground_truth_full.json
+    model_names.csv
 output/
-    trees/     <dataset>_<setting>_<run>_<system>.json    the graphs
+    trees/     <dataset>_<setting>_<run>_<system>.json
     results/   written by the evaluators
 requirements.txt
-run_all.sh / run_all.bat     score everything and build the table
-run_selected.sh              examples for scoring selected trials
+run_all.sh / run_all.bat
+run_selected.sh
 ```
 
 Tree names: `setting` is `zero` (zero-shot) or `osl` (one-shot); `run` is `t1`, `t2`, ...;
@@ -68,25 +68,10 @@ python evaluator/overall_evaluator.py --summary output/results/summary_osl.csv -
 | File | Contents |
 |---|---|
 | `<tree>_eval.json` | full report per tree: scores, counts, matched / missing variables, ancestor checks, library versions |
-| `summary.csv` | one row per tree: dataset, setting, run, system, counts, coverage, accuracy, composite (6 dp) |
-| `summary_by_model.csv` | mean over runs per dataset x setting x system (3 dp) |
+| `summary.csv` | one row per tree: dataset, setting, run, system, counts, coverage, accuracy, composite |
+| `summary_by_model.csv` | mean over runs per dataset x setting x system |
 | `overall_table.csv` / `.tex` | Model x {Zero-shot, One-shot}, plus Mean and Spread (max-min) |
 
 In the overall table each cell is the mean of the metric for one model and setting:
 runs are averaged within each dataset, then datasets are averaged with equal weight.
 Mean and Spread are taken across models. Rounding to 3 dp happens only at the end.
-
-## Metrics
-
-Let V be the ground-truth variables, t(v) the table that owns v, L the leaves of a
-tree and Anc(n) the ancestors of node n.
-
-- **Coverage** = |M| / |V|, where M = variables that appear as a leaf (exact id or label match).
-- **Accuracy** = share of v in M for which some ancestor a satisfies S(t(v), a) >= tau, with tau = 0.60.
-- **Composite** = 0.5 * Coverage + 0.5 * Accuracy.
-
-S is the table-name similarity: 1 if normalised names are equal (lower case, `_` to space
-or removed, trailing `s` dropped); otherwise
-min(1, 0.6 * RapidFuzz token-set ratio / 100 + 0.4 * TF-IDF cosine + bonus),
-with +0.10 if one name is a prefix of the other and +0.05 if one contains the other.
-The TF-IDF vectoriser (scikit-learn defaults) is fitted on each pair of names.
