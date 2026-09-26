@@ -1,0 +1,55 @@
+{
+  "name_basics": [
+    "name_basics_birthyear",
+    "name_basics_deathyear",
+    "name_basics_knownfortitles",
+    "name_basics_nconst",
+    "name_basics_primaryname",
+    "name_basics_primaryprofession"
+  ],
+  "title_akas": [
+    "title_akas_attributes",
+    "title_akas_isoriginaltitle",
+    "title_akas_language",
+    "title_akas_ordering",
+    "title_akas_region",
+    "title_akas_title",
+    "title_akas_titleid",
+    "title_akas_types"
+  ],
+  "title_basics": [
+    "title_basics_endyear",
+    "title_basics_genres",
+    "title_basics_isadult",
+    "title_basics_originaltitle",
+    "title_basics_primarytitle",
+    "title_basics_runtimeminutes",
+    "title_basics_startyear",
+    "title_basics_tconst",
+    "title_basics_titletype"
+  ],
+  "title_crew": [
+    "title_crew_directors",
+    "title_crew_tconst",
+    "title_crew_writers"
+  ],
+  "title_episode": [
+    "title_episode_episodenumber",
+    "title_episode_parenttconst",
+    "title_episode_seasonnumber",
+    "title_episode_tconst"
+  ],
+  "title_principals": [
+    "title_principals_category",
+    "title_principals_characters",
+    "title_principals_job",
+    "title_principals_nconst",
+    "title_principals_ordering",
+    "title_principals_tconst"
+  ],
+  "title_ratings": [
+    "title_ratings_averagerating",
+    "title_ratings_numvotes",
+    "title_ratings_tconst"
+  ]
+}

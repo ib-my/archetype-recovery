@@ -1,0 +1,1335 @@
+{
+  "status": "completed",
+  "result": {
+    "nodes": [
+      {
+        "id": "Root",
+        "label": "Root",
+        "depth": 0,
+        "colour": "#0ea5e9"
+      },
+      {
+        "id": "Clinical Event",
+        "label": "Clinical Event",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "Consultation",
+        "label": "Consultation",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "Immunisation",
+        "label": "Immunisation",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "Patient",
+        "label": "Patient",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "Practice",
+        "label": "Practice",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "Referral",
+        "label": "Referral",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "Staff",
+        "label": "Staff",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "Test",
+        "label": "Test",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "Therapy",
+        "label": "Therapy",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "clinical_adid",
+        "label": "clinical_adid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "clinical_consid",
+        "label": "clinical_consid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "clinical_constype",
+        "label": "clinical_constype",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "clinical_enttype",
+        "label": "clinical_enttype",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "clinical_episode",
+        "label": "clinical_episode",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "clinical_eventdate",
+        "label": "clinical_eventdate",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "clinical_medcode",
+        "label": "clinical_medcode",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "clinical_patid",
+        "label": "clinical_patid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "clinical_sctdescid",
+        "label": "clinical_sctdescid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "clinical_sctexpression",
+        "label": "clinical_sctexpression",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "clinical_sctid",
+        "label": "clinical_sctid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "clinical_sctisassured",
+        "label": "clinical_sctisassured",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "clinical_sctisindicative",
+        "label": "clinical_sctisindicative",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "clinical_sctmaptype",
+        "label": "clinical_sctmaptype",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "clinical_sctmapversion",
+        "label": "clinical_sctmapversion",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "clinical_staffid",
+        "label": "clinical_staffid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "clinical_sysdate",
+        "label": "clinical_sysdate",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "consultation_consid",
+        "label": "consultation_consid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "consultation_constype",
+        "label": "consultation_constype",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "consultation_duration",
+        "label": "consultation_duration",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "consultation_eventdate",
+        "label": "consultation_eventdate",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "consultation_patid",
+        "label": "consultation_patid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "consultation_staffid",
+        "label": "consultation_staffid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "consultation_sysdate",
+        "label": "consultation_sysdate",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "immunisation_batch",
+        "label": "immunisation_batch",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "immunisation_compound",
+        "label": "immunisation_compound",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "immunisation_consid",
+        "label": "immunisation_consid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "immunisation_constype",
+        "label": "immunisation_constype",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "immunisation_eventdate",
+        "label": "immunisation_eventdate",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "immunisation_immstype",
+        "label": "immunisation_immstype",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "immunisation_medcode",
+        "label": "immunisation_medcode",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "immunisation_method",
+        "label": "immunisation_method",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "immunisation_patid",
+        "label": "immunisation_patid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "immunisation_reason",
+        "label": "immunisation_reason",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "immunisation_sctdescid",
+        "label": "immunisation_sctdescid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "immunisation_sctexpression",
+        "label": "immunisation_sctexpression",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "immunisation_sctid",
+        "label": "immunisation_sctid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "immunisation_sctisassured",
+        "label": "immunisation_sctisassured",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "immunisation_sctisindicative",
+        "label": "immunisation_sctisindicative",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "immunisation_sctmaptype",
+        "label": "immunisation_sctmaptype",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "immunisation_sctmapversion",
+        "label": "immunisation_sctmapversion",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "immunisation_source",
+        "label": "immunisation_source",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "immunisation_staffid",
+        "label": "immunisation_staffid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "immunisation_stage",
+        "label": "immunisation_stage",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "immunisation_status",
+        "label": "immunisation_status",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "immunisation_sysdate",
+        "label": "immunisation_sysdate",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "patient_accept",
+        "label": "patient_accept",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "patient_capsup",
+        "label": "patient_capsup",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "patient_chsdate",
+        "label": "patient_chsdate",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "patient_chsreg",
+        "label": "patient_chsreg",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "patient_crd",
+        "label": "patient_crd",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "patient_deathdate",
+        "label": "patient_deathdate",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "patient_famnum",
+        "label": "patient_famnum",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "patient_frd",
+        "label": "patient_frd",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "patient_gender",
+        "label": "patient_gender",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "patient_internal",
+        "label": "patient_internal",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "patient_marital",
+        "label": "patient_marital",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "patient_mob",
+        "label": "patient_mob",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "patient_patid",
+        "label": "patient_patid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "patient_prescr",
+        "label": "patient_prescr",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "patient_reggap",
+        "label": "patient_reggap",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "patient_regstat",
+        "label": "patient_regstat",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "patient_tod",
+        "label": "patient_tod",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "patient_toreason",
+        "label": "patient_toreason",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "patient_vmid",
+        "label": "patient_vmid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "patient_yob",
+        "label": "patient_yob",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "practice_lcd",
+        "label": "practice_lcd",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "practice_pracid",
+        "label": "practice_pracid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "practice_region",
+        "label": "practice_region",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "practice_uts",
+        "label": "practice_uts",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "referral_attendance",
+        "label": "referral_attendance",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "referral_consid",
+        "label": "referral_consid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "referral_constype",
+        "label": "referral_constype",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "referral_eventdate",
+        "label": "referral_eventdate",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "referral_fhsaspec",
+        "label": "referral_fhsaspec",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "referral_inpatient",
+        "label": "referral_inpatient",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "referral_medcode",
+        "label": "referral_medcode",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "referral_nhsspec",
+        "label": "referral_nhsspec",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "referral_patid",
+        "label": "referral_patid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "referral_sctdescid",
+        "label": "referral_sctdescid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "referral_sctexpression",
+        "label": "referral_sctexpression",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "referral_sctid",
+        "label": "referral_sctid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "referral_sctisassured",
+        "label": "referral_sctisassured",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "referral_sctisindicative",
+        "label": "referral_sctisindicative",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "referral_sctmaptype",
+        "label": "referral_sctmaptype",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "referral_sctmapversion",
+        "label": "referral_sctmapversion",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "referral_source",
+        "label": "referral_source",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "referral_staffid",
+        "label": "referral_staffid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "referral_sysdate",
+        "label": "referral_sysdate",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "referral_urgency",
+        "label": "referral_urgency",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "staff_gender",
+        "label": "staff_gender",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "staff_role",
+        "label": "staff_role",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "staff_staffid",
+        "label": "staff_staffid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "test_consid",
+        "label": "test_consid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "test_constype",
+        "label": "test_constype",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "test_enttype",
+        "label": "test_enttype",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "test_eventdate",
+        "label": "test_eventdate",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "test_medcode",
+        "label": "test_medcode",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "test_patid",
+        "label": "test_patid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "test_sctdescid",
+        "label": "test_sctdescid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "test_sctexpression",
+        "label": "test_sctexpression",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "test_sctid",
+        "label": "test_sctid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "test_sctisassured",
+        "label": "test_sctisassured",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "test_sctisindicative",
+        "label": "test_sctisindicative",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "test_sctmaptype",
+        "label": "test_sctmaptype",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "test_sctmapversion",
+        "label": "test_sctmapversion",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "test_staffid",
+        "label": "test_staffid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "test_sysdate",
+        "label": "test_sysdate",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "therapy_bnfcode",
+        "label": "therapy_bnfcode",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "therapy_consid",
+        "label": "therapy_consid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "therapy_dosageid",
+        "label": "therapy_dosageid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "therapy_drugdmd",
+        "label": "therapy_drugdmd",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "therapy_eventdate",
+        "label": "therapy_eventdate",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "therapy_issueseq",
+        "label": "therapy_issueseq",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "therapy_numdays",
+        "label": "therapy_numdays",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "therapy_numpacks",
+        "label": "therapy_numpacks",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "therapy_packtype",
+        "label": "therapy_packtype",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "therapy_patid",
+        "label": "therapy_patid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "therapy_prn",
+        "label": "therapy_prn",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "therapy_prodcode",
+        "label": "therapy_prodcode",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "therapy_qty",
+        "label": "therapy_qty",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "therapy_staffid",
+        "label": "therapy_staffid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "therapy_sysdate",
+        "label": "therapy_sysdate",
+        "depth": 2,
+        "colour": "#ec4899"
+      }
+    ],
+    "edges": [
+      {
+        "source": "Root",
+        "target": "Clinical Event"
+      },
+      {
+        "source": "Root",
+        "target": "Consultation"
+      },
+      {
+        "source": "Root",
+        "target": "Immunisation"
+      },
+      {
+        "source": "Root",
+        "target": "Patient"
+      },
+      {
+        "source": "Root",
+        "target": "Practice"
+      },
+      {
+        "source": "Root",
+        "target": "Referral"
+      },
+      {
+        "source": "Root",
+        "target": "Staff"
+      },
+      {
+        "source": "Root",
+        "target": "Test"
+      },
+      {
+        "source": "Root",
+        "target": "Therapy"
+      },
+      {
+        "source": "Clinical Event",
+        "target": "clinical_adid"
+      },
+      {
+        "source": "Clinical Event",
+        "target": "clinical_consid"
+      },
+      {
+        "source": "Clinical Event",
+        "target": "clinical_constype"
+      },
+      {
+        "source": "Clinical Event",
+        "target": "clinical_enttype"
+      },
+      {
+        "source": "Clinical Event",
+        "target": "clinical_episode"
+      },
+      {
+        "source": "Clinical Event",
+        "target": "clinical_eventdate"
+      },
+      {
+        "source": "Clinical Event",
+        "target": "clinical_medcode"
+      },
+      {
+        "source": "Clinical Event",
+        "target": "clinical_patid"
+      },
+      {
+        "source": "Clinical Event",
+        "target": "clinical_sctdescid"
+      },
+      {
+        "source": "Clinical Event",
+        "target": "clinical_sctexpression"
+      },
+      {
+        "source": "Clinical Event",
+        "target": "clinical_sctid"
+      },
+      {
+        "source": "Clinical Event",
+        "target": "clinical_sctisassured"
+      },
+      {
+        "source": "Clinical Event",
+        "target": "clinical_sctisindicative"
+      },
+      {
+        "source": "Clinical Event",
+        "target": "clinical_sctmaptype"
+      },
+      {
+        "source": "Clinical Event",
+        "target": "clinical_sctmapversion"
+      },
+      {
+        "source": "Clinical Event",
+        "target": "clinical_staffid"
+      },
+      {
+        "source": "Clinical Event",
+        "target": "clinical_sysdate"
+      },
+      {
+        "source": "Consultation",
+        "target": "consultation_consid"
+      },
+      {
+        "source": "Consultation",
+        "target": "consultation_constype"
+      },
+      {
+        "source": "Consultation",
+        "target": "consultation_duration"
+      },
+      {
+        "source": "Consultation",
+        "target": "consultation_eventdate"
+      },
+      {
+        "source": "Consultation",
+        "target": "consultation_patid"
+      },
+      {
+        "source": "Consultation",
+        "target": "consultation_staffid"
+      },
+      {
+        "source": "Consultation",
+        "target": "consultation_sysdate"
+      },
+      {
+        "source": "Immunisation",
+        "target": "immunisation_batch"
+      },
+      {
+        "source": "Immunisation",
+        "target": "immunisation_compound"
+      },
+      {
+        "source": "Immunisation",
+        "target": "immunisation_consid"
+      },
+      {
+        "source": "Immunisation",
+        "target": "immunisation_constype"
+      },
+      {
+        "source": "Immunisation",
+        "target": "immunisation_eventdate"
+      },
+      {
+        "source": "Immunisation",
+        "target": "immunisation_immstype"
+      },
+      {
+        "source": "Immunisation",
+        "target": "immunisation_medcode"
+      },
+      {
+        "source": "Immunisation",
+        "target": "immunisation_method"
+      },
+      {
+        "source": "Immunisation",
+        "target": "immunisation_patid"
+      },
+      {
+        "source": "Immunisation",
+        "target": "immunisation_reason"
+      },
+      {
+        "source": "Immunisation",
+        "target": "immunisation_sctdescid"
+      },
+      {
+        "source": "Immunisation",
+        "target": "immunisation_sctexpression"
+      },
+      {
+        "source": "Immunisation",
+        "target": "immunisation_sctid"
+      },
+      {
+        "source": "Immunisation",
+        "target": "immunisation_sctisassured"
+      },
+      {
+        "source": "Immunisation",
+        "target": "immunisation_sctisindicative"
+      },
+      {
+        "source": "Immunisation",
+        "target": "immunisation_sctmaptype"
+      },
+      {
+        "source": "Immunisation",
+        "target": "immunisation_sctmapversion"
+      },
+      {
+        "source": "Immunisation",
+        "target": "immunisation_source"
+      },
+      {
+        "source": "Immunisation",
+        "target": "immunisation_staffid"
+      },
+      {
+        "source": "Immunisation",
+        "target": "immunisation_stage"
+      },
+      {
+        "source": "Immunisation",
+        "target": "immunisation_status"
+      },
+      {
+        "source": "Immunisation",
+        "target": "immunisation_sysdate"
+      },
+      {
+        "source": "Patient",
+        "target": "patient_accept"
+      },
+      {
+        "source": "Patient",
+        "target": "patient_capsup"
+      },
+      {
+        "source": "Patient",
+        "target": "patient_chsdate"
+      },
+      {
+        "source": "Patient",
+        "target": "patient_chsreg"
+      },
+      {
+        "source": "Patient",
+        "target": "patient_crd"
+      },
+      {
+        "source": "Patient",
+        "target": "patient_deathdate"
+      },
+      {
+        "source": "Patient",
+        "target": "patient_famnum"
+      },
+      {
+        "source": "Patient",
+        "target": "patient_frd"
+      },
+      {
+        "source": "Patient",
+        "target": "patient_gender"
+      },
+      {
+        "source": "Patient",
+        "target": "patient_internal"
+      },
+      {
+        "source": "Patient",
+        "target": "patient_marital"
+      },
+      {
+        "source": "Patient",
+        "target": "patient_mob"
+      },
+      {
+        "source": "Patient",
+        "target": "patient_patid"
+      },
+      {
+        "source": "Patient",
+        "target": "patient_prescr"
+      },
+      {
+        "source": "Patient",
+        "target": "patient_reggap"
+      },
+      {
+        "source": "Patient",
+        "target": "patient_regstat"
+      },
+      {
+        "source": "Patient",
+        "target": "patient_tod"
+      },
+      {
+        "source": "Patient",
+        "target": "patient_toreason"
+      },
+      {
+        "source": "Patient",
+        "target": "patient_vmid"
+      },
+      {
+        "source": "Patient",
+        "target": "patient_yob"
+      },
+      {
+        "source": "Practice",
+        "target": "practice_lcd"
+      },
+      {
+        "source": "Practice",
+        "target": "practice_pracid"
+      },
+      {
+        "source": "Practice",
+        "target": "practice_region"
+      },
+      {
+        "source": "Practice",
+        "target": "practice_uts"
+      },
+      {
+        "source": "Referral",
+        "target": "referral_attendance"
+      },
+      {
+        "source": "Referral",
+        "target": "referral_consid"
+      },
+      {
+        "source": "Referral",
+        "target": "referral_constype"
+      },
+      {
+        "source": "Referral",
+        "target": "referral_eventdate"
+      },
+      {
+        "source": "Referral",
+        "target": "referral_fhsaspec"
+      },
+      {
+        "source": "Referral",
+        "target": "referral_inpatient"
+      },
+      {
+        "source": "Referral",
+        "target": "referral_medcode"
+      },
+      {
+        "source": "Referral",
+        "target": "referral_nhsspec"
+      },
+      {
+        "source": "Referral",
+        "target": "referral_patid"
+      },
+      {
+        "source": "Referral",
+        "target": "referral_sctdescid"
+      },
+      {
+        "source": "Referral",
+        "target": "referral_sctexpression"
+      },
+      {
+        "source": "Referral",
+        "target": "referral_sctid"
+      },
+      {
+        "source": "Referral",
+        "target": "referral_sctisassured"
+      },
+      {
+        "source": "Referral",
+        "target": "referral_sctisindicative"
+      },
+      {
+        "source": "Referral",
+        "target": "referral_sctmaptype"
+      },
+      {
+        "source": "Referral",
+        "target": "referral_sctmapversion"
+      },
+      {
+        "source": "Referral",
+        "target": "referral_source"
+      },
+      {
+        "source": "Referral",
+        "target": "referral_staffid"
+      },
+      {
+        "source": "Referral",
+        "target": "referral_sysdate"
+      },
+      {
+        "source": "Referral",
+        "target": "referral_urgency"
+      },
+      {
+        "source": "Staff",
+        "target": "staff_gender"
+      },
+      {
+        "source": "Staff",
+        "target": "staff_role"
+      },
+      {
+        "source": "Staff",
+        "target": "staff_staffid"
+      },
+      {
+        "source": "Test",
+        "target": "test_consid"
+      },
+      {
+        "source": "Test",
+        "target": "test_constype"
+      },
+      {
+        "source": "Test",
+        "target": "test_enttype"
+      },
+      {
+        "source": "Test",
+        "target": "test_eventdate"
+      },
+      {
+        "source": "Test",
+        "target": "test_medcode"
+      },
+      {
+        "source": "Test",
+        "target": "test_patid"
+      },
+      {
+        "source": "Test",
+        "target": "test_sctdescid"
+      },
+      {
+        "source": "Test",
+        "target": "test_sctexpression"
+      },
+      {
+        "source": "Test",
+        "target": "test_sctid"
+      },
+      {
+        "source": "Test",
+        "target": "test_sctisassured"
+      },
+      {
+        "source": "Test",
+        "target": "test_sctisindicative"
+      },
+      {
+        "source": "Test",
+        "target": "test_sctmaptype"
+      },
+      {
+        "source": "Test",
+        "target": "test_sctmapversion"
+      },
+      {
+        "source": "Test",
+        "target": "test_staffid"
+      },
+      {
+        "source": "Test",
+        "target": "test_sysdate"
+      },
+      {
+        "source": "Therapy",
+        "target": "therapy_bnfcode"
+      },
+      {
+        "source": "Therapy",
+        "target": "therapy_consid"
+      },
+      {
+        "source": "Therapy",
+        "target": "therapy_dosageid"
+      },
+      {
+        "source": "Therapy",
+        "target": "therapy_drugdmd"
+      },
+      {
+        "source": "Therapy",
+        "target": "therapy_eventdate"
+      },
+      {
+        "source": "Therapy",
+        "target": "therapy_issueseq"
+      },
+      {
+        "source": "Therapy",
+        "target": "therapy_numdays"
+      },
+      {
+        "source": "Therapy",
+        "target": "therapy_numpacks"
+      },
+      {
+        "source": "Therapy",
+        "target": "therapy_packtype"
+      },
+      {
+        "source": "Therapy",
+        "target": "therapy_patid"
+      },
+      {
+        "source": "Therapy",
+        "target": "therapy_prn"
+      },
+      {
+        "source": "Therapy",
+        "target": "therapy_prodcode"
+      },
+      {
+        "source": "Therapy",
+        "target": "therapy_qty"
+      },
+      {
+        "source": "Therapy",
+        "target": "therapy_staffid"
+      },
+      {
+        "source": "Therapy",
+        "target": "therapy_sysdate"
+      }
+    ]
+  }
+}

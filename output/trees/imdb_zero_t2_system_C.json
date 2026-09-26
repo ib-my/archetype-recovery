@@ -1,0 +1,445 @@
+{
+  "status": "completed",
+  "result": {
+    "nodes": [
+      {
+        "id": "Root",
+        "label": "Root",
+        "depth": 0,
+        "colour": "#0ea5e9"
+      },
+      {
+        "id": "0",
+        "label": "IMDb",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "11",
+        "label": "Title",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "4",
+        "label": "Personal Information",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "8",
+        "label": "Career",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "10",
+        "label": "name_basics_knownfortitles",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "13",
+        "label": "title_basics_tconst",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "16",
+        "label": "title_basics_primarytitle",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "17",
+        "label": "title_basics_originaltitle",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "19",
+        "label": "title_basics_titletype",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "20",
+        "label": "title_basics_genres",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "21",
+        "label": "title_basics_isadult",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "23",
+        "label": "title_basics_runtimeminutes",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "25",
+        "label": "title_basics_startyear",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "26",
+        "label": "title_basics_endyear",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "29",
+        "label": "title_akas_titleid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "3",
+        "label": "name_basics_nconst",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "30",
+        "label": "title_akas_ordering",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "32",
+        "label": "title_akas_title",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "33",
+        "label": "title_akas_language",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "34",
+        "label": "title_akas_region",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "35",
+        "label": "title_akas_isoriginaltitle",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "37",
+        "label": "title_akas_types",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "38",
+        "label": "title_akas_attributes",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "41",
+        "label": "title_crew_tconst",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "43",
+        "label": "title_crew_directors",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "44",
+        "label": "title_crew_writers",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "47",
+        "label": "title_episode_tconst",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "49",
+        "label": "title_episode_parenttconst",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "5",
+        "label": "name_basics_primaryname",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "51",
+        "label": "title_episode_seasonnumber",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "52",
+        "label": "title_episode_episodenumber",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "55",
+        "label": "title_principals_tconst",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "56",
+        "label": "title_principals_nconst",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "57",
+        "label": "title_principals_ordering",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "59",
+        "label": "title_principals_category",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "6",
+        "label": "name_basics_birthyear",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "60",
+        "label": "title_principals_job",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "61",
+        "label": "title_principals_characters",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "64",
+        "label": "title_ratings_tconst",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "66",
+        "label": "title_ratings_averagerating",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "67",
+        "label": "title_ratings_numvotes",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "7",
+        "label": "name_basics_deathyear",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "9",
+        "label": "name_basics_primaryprofession",
+        "depth": 2,
+        "colour": "#ec4899"
+      }
+    ],
+    "edges": [
+      {
+        "source": "Root",
+        "target": "0"
+      },
+      {
+        "source": "Root",
+        "target": "11"
+      },
+      {
+        "source": "Root",
+        "target": "4"
+      },
+      {
+        "source": "Root",
+        "target": "8"
+      },
+      {
+        "source": "0",
+        "target": "3"
+      },
+      {
+        "source": "11",
+        "target": "13"
+      },
+      {
+        "source": "11",
+        "target": "16"
+      },
+      {
+        "source": "11",
+        "target": "17"
+      },
+      {
+        "source": "11",
+        "target": "19"
+      },
+      {
+        "source": "11",
+        "target": "20"
+      },
+      {
+        "source": "11",
+        "target": "21"
+      },
+      {
+        "source": "11",
+        "target": "23"
+      },
+      {
+        "source": "11",
+        "target": "25"
+      },
+      {
+        "source": "11",
+        "target": "26"
+      },
+      {
+        "source": "11",
+        "target": "29"
+      },
+      {
+        "source": "11",
+        "target": "30"
+      },
+      {
+        "source": "11",
+        "target": "32"
+      },
+      {
+        "source": "11",
+        "target": "33"
+      },
+      {
+        "source": "11",
+        "target": "34"
+      },
+      {
+        "source": "11",
+        "target": "35"
+      },
+      {
+        "source": "11",
+        "target": "37"
+      },
+      {
+        "source": "11",
+        "target": "38"
+      },
+      {
+        "source": "11",
+        "target": "41"
+      },
+      {
+        "source": "11",
+        "target": "43"
+      },
+      {
+        "source": "11",
+        "target": "44"
+      },
+      {
+        "source": "11",
+        "target": "47"
+      },
+      {
+        "source": "11",
+        "target": "49"
+      },
+      {
+        "source": "11",
+        "target": "51"
+      },
+      {
+        "source": "11",
+        "target": "52"
+      },
+      {
+        "source": "11",
+        "target": "55"
+      },
+      {
+        "source": "11",
+        "target": "56"
+      },
+      {
+        "source": "11",
+        "target": "57"
+      },
+      {
+        "source": "11",
+        "target": "59"
+      },
+      {
+        "source": "11",
+        "target": "60"
+      },
+      {
+        "source": "11",
+        "target": "61"
+      },
+      {
+        "source": "11",
+        "target": "64"
+      },
+      {
+        "source": "11",
+        "target": "66"
+      },
+      {
+        "source": "11",
+        "target": "67"
+      },
+      {
+        "source": "4",
+        "target": "5"
+      },
+      {
+        "source": "4",
+        "target": "6"
+      },
+      {
+        "source": "4",
+        "target": "7"
+      },
+      {
+        "source": "8",
+        "target": "10"
+      },
+      {
+        "source": "8",
+        "target": "9"
+      }
+    ]
+  }
+}

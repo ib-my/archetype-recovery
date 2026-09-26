@@ -1,0 +1,473 @@
+{
+  "settings": {
+    "tau": 0.6,
+    "similarity": {
+      "w_token_set_ratio": 0.6,
+      "w_tfidf_cosine": 0.4,
+      "bonus_prefix": 0.1,
+      "bonus_substring": 0.05
+    },
+    "composite_weights": {
+      "coverage": 0.5,
+      "accuracy": 0.5
+    },
+    "library_versions": {
+      "rapidfuzz": "3.14.6",
+      "scikit-learn": "1.9.1"
+    },
+    "python": "3.13.3"
+  },
+  "counts": {
+    "gt_tables": 7,
+    "gt_variables": 39,
+    "graph_nodes": 47,
+    "graph_leaves": 39,
+    "matched_variables": 39,
+    "correct_ancestor": 39
+  },
+  "scores": {
+    "coverage": 1.0,
+    "accuracy": 1.0,
+    "composite": 1.0
+  },
+  "variables": {
+    "matched": [
+      "name_basics_birthyear",
+      "name_basics_deathyear",
+      "name_basics_knownfortitles",
+      "name_basics_nconst",
+      "name_basics_primaryname",
+      "name_basics_primaryprofession",
+      "title_akas_attributes",
+      "title_akas_isoriginaltitle",
+      "title_akas_language",
+      "title_akas_ordering",
+      "title_akas_region",
+      "title_akas_title",
+      "title_akas_titleid",
+      "title_akas_types",
+      "title_basics_endyear",
+      "title_basics_genres",
+      "title_basics_isadult",
+      "title_basics_originaltitle",
+      "title_basics_primarytitle",
+      "title_basics_runtimeminutes",
+      "title_basics_startyear",
+      "title_basics_tconst",
+      "title_basics_titletype",
+      "title_crew_directors",
+      "title_crew_tconst",
+      "title_crew_writers",
+      "title_episode_episodenumber",
+      "title_episode_parenttconst",
+      "title_episode_seasonnumber",
+      "title_episode_tconst",
+      "title_principals_category",
+      "title_principals_characters",
+      "title_principals_job",
+      "title_principals_nconst",
+      "title_principals_ordering",
+      "title_principals_tconst",
+      "title_ratings_averagerating",
+      "title_ratings_numvotes",
+      "title_ratings_tconst"
+    ],
+    "missing": [],
+    "extra_leaves": []
+  },
+  "ancestor_checks": {
+    "correct": [
+      {
+        "variable": "name_basics_birthyear",
+        "gt_table": "name_basics",
+        "leaf_node": "name_basics_birthyear",
+        "similarity": 1.0,
+        "ancestor": "NameBasics",
+        "ancestor_name": "NameBasics",
+        "gt_variant": "namebasic",
+        "ancestor_variant": "namebasic"
+      },
+      {
+        "variable": "name_basics_deathyear",
+        "gt_table": "name_basics",
+        "leaf_node": "name_basics_deathyear",
+        "similarity": 1.0,
+        "ancestor": "NameBasics",
+        "ancestor_name": "NameBasics",
+        "gt_variant": "namebasic",
+        "ancestor_variant": "namebasic"
+      },
+      {
+        "variable": "name_basics_knownfortitles",
+        "gt_table": "name_basics",
+        "leaf_node": "name_basics_knownfortitles",
+        "similarity": 1.0,
+        "ancestor": "NameBasics",
+        "ancestor_name": "NameBasics",
+        "gt_variant": "namebasic",
+        "ancestor_variant": "namebasic"
+      },
+      {
+        "variable": "name_basics_nconst",
+        "gt_table": "name_basics",
+        "leaf_node": "name_basics_nconst",
+        "similarity": 1.0,
+        "ancestor": "NameBasics",
+        "ancestor_name": "NameBasics",
+        "gt_variant": "namebasic",
+        "ancestor_variant": "namebasic"
+      },
+      {
+        "variable": "name_basics_primaryname",
+        "gt_table": "name_basics",
+        "leaf_node": "name_basics_primaryname",
+        "similarity": 1.0,
+        "ancestor": "NameBasics",
+        "ancestor_name": "NameBasics",
+        "gt_variant": "namebasic",
+        "ancestor_variant": "namebasic"
+      },
+      {
+        "variable": "name_basics_primaryprofession",
+        "gt_table": "name_basics",
+        "leaf_node": "name_basics_primaryprofession",
+        "similarity": 1.0,
+        "ancestor": "NameBasics",
+        "ancestor_name": "NameBasics",
+        "gt_variant": "namebasic",
+        "ancestor_variant": "namebasic"
+      },
+      {
+        "variable": "title_akas_attributes",
+        "gt_table": "title_akas",
+        "leaf_node": "title_akas_attributes",
+        "similarity": 1.0,
+        "ancestor": "TitleAkas",
+        "ancestor_name": "TitleAkas",
+        "gt_variant": "titleaka",
+        "ancestor_variant": "titleaka"
+      },
+      {
+        "variable": "title_akas_isoriginaltitle",
+        "gt_table": "title_akas",
+        "leaf_node": "title_akas_isoriginaltitle",
+        "similarity": 1.0,
+        "ancestor": "TitleAkas",
+        "ancestor_name": "TitleAkas",
+        "gt_variant": "titleaka",
+        "ancestor_variant": "titleaka"
+      },
+      {
+        "variable": "title_akas_language",
+        "gt_table": "title_akas",
+        "leaf_node": "title_akas_language",
+        "similarity": 1.0,
+        "ancestor": "TitleAkas",
+        "ancestor_name": "TitleAkas",
+        "gt_variant": "titleaka",
+        "ancestor_variant": "titleaka"
+      },
+      {
+        "variable": "title_akas_ordering",
+        "gt_table": "title_akas",
+        "leaf_node": "title_akas_ordering",
+        "similarity": 1.0,
+        "ancestor": "TitleAkas",
+        "ancestor_name": "TitleAkas",
+        "gt_variant": "titleaka",
+        "ancestor_variant": "titleaka"
+      },
+      {
+        "variable": "title_akas_region",
+        "gt_table": "title_akas",
+        "leaf_node": "title_akas_region",
+        "similarity": 1.0,
+        "ancestor": "TitleAkas",
+        "ancestor_name": "TitleAkas",
+        "gt_variant": "titleaka",
+        "ancestor_variant": "titleaka"
+      },
+      {
+        "variable": "title_akas_title",
+        "gt_table": "title_akas",
+        "leaf_node": "title_akas_title",
+        "similarity": 1.0,
+        "ancestor": "TitleAkas",
+        "ancestor_name": "TitleAkas",
+        "gt_variant": "titleaka",
+        "ancestor_variant": "titleaka"
+      },
+      {
+        "variable": "title_akas_titleid",
+        "gt_table": "title_akas",
+        "leaf_node": "title_akas_titleid",
+        "similarity": 1.0,
+        "ancestor": "TitleAkas",
+        "ancestor_name": "TitleAkas",
+        "gt_variant": "titleaka",
+        "ancestor_variant": "titleaka"
+      },
+      {
+        "variable": "title_akas_types",
+        "gt_table": "title_akas",
+        "leaf_node": "title_akas_types",
+        "similarity": 1.0,
+        "ancestor": "TitleAkas",
+        "ancestor_name": "TitleAkas",
+        "gt_variant": "titleaka",
+        "ancestor_variant": "titleaka"
+      },
+      {
+        "variable": "title_basics_endyear",
+        "gt_table": "title_basics",
+        "leaf_node": "title_basics_endyear",
+        "similarity": 1.0,
+        "ancestor": "TitleBasics",
+        "ancestor_name": "TitleBasics",
+        "gt_variant": "titlebasic",
+        "ancestor_variant": "titlebasic"
+      },
+      {
+        "variable": "title_basics_genres",
+        "gt_table": "title_basics",
+        "leaf_node": "title_basics_genres",
+        "similarity": 1.0,
+        "ancestor": "TitleBasics",
+        "ancestor_name": "TitleBasics",
+        "gt_variant": "titlebasic",
+        "ancestor_variant": "titlebasic"
+      },
+      {
+        "variable": "title_basics_isadult",
+        "gt_table": "title_basics",
+        "leaf_node": "title_basics_isadult",
+        "similarity": 1.0,
+        "ancestor": "TitleBasics",
+        "ancestor_name": "TitleBasics",
+        "gt_variant": "titlebasic",
+        "ancestor_variant": "titlebasic"
+      },
+      {
+        "variable": "title_basics_originaltitle",
+        "gt_table": "title_basics",
+        "leaf_node": "title_basics_originaltitle",
+        "similarity": 1.0,
+        "ancestor": "TitleBasics",
+        "ancestor_name": "TitleBasics",
+        "gt_variant": "titlebasic",
+        "ancestor_variant": "titlebasic"
+      },
+      {
+        "variable": "title_basics_primarytitle",
+        "gt_table": "title_basics",
+        "leaf_node": "title_basics_primarytitle",
+        "similarity": 1.0,
+        "ancestor": "TitleBasics",
+        "ancestor_name": "TitleBasics",
+        "gt_variant": "titlebasic",
+        "ancestor_variant": "titlebasic"
+      },
+      {
+        "variable": "title_basics_runtimeminutes",
+        "gt_table": "title_basics",
+        "leaf_node": "title_basics_runtimeminutes",
+        "similarity": 1.0,
+        "ancestor": "TitleBasics",
+        "ancestor_name": "TitleBasics",
+        "gt_variant": "titlebasic",
+        "ancestor_variant": "titlebasic"
+      },
+      {
+        "variable": "title_basics_startyear",
+        "gt_table": "title_basics",
+        "leaf_node": "title_basics_startyear",
+        "similarity": 1.0,
+        "ancestor": "TitleBasics",
+        "ancestor_name": "TitleBasics",
+        "gt_variant": "titlebasic",
+        "ancestor_variant": "titlebasic"
+      },
+      {
+        "variable": "title_basics_tconst",
+        "gt_table": "title_basics",
+        "leaf_node": "title_basics_tconst",
+        "similarity": 1.0,
+        "ancestor": "TitleBasics",
+        "ancestor_name": "TitleBasics",
+        "gt_variant": "titlebasic",
+        "ancestor_variant": "titlebasic"
+      },
+      {
+        "variable": "title_basics_titletype",
+        "gt_table": "title_basics",
+        "leaf_node": "title_basics_titletype",
+        "similarity": 1.0,
+        "ancestor": "TitleBasics",
+        "ancestor_name": "TitleBasics",
+        "gt_variant": "titlebasic",
+        "ancestor_variant": "titlebasic"
+      },
+      {
+        "variable": "title_crew_directors",
+        "gt_table": "title_crew",
+        "leaf_node": "title_crew_directors",
+        "similarity": 1.0,
+        "ancestor": "TitleCrew",
+        "ancestor_name": "TitleCrew",
+        "gt_variant": "titlecrew",
+        "ancestor_variant": "titlecrew"
+      },
+      {
+        "variable": "title_crew_tconst",
+        "gt_table": "title_crew",
+        "leaf_node": "title_crew_tconst",
+        "similarity": 1.0,
+        "ancestor": "TitleCrew",
+        "ancestor_name": "TitleCrew",
+        "gt_variant": "titlecrew",
+        "ancestor_variant": "titlecrew"
+      },
+      {
+        "variable": "title_crew_writers",
+        "gt_table": "title_crew",
+        "leaf_node": "title_crew_writers",
+        "similarity": 1.0,
+        "ancestor": "TitleCrew",
+        "ancestor_name": "TitleCrew",
+        "gt_variant": "titlecrew",
+        "ancestor_variant": "titlecrew"
+      },
+      {
+        "variable": "title_episode_episodenumber",
+        "gt_table": "title_episode",
+        "leaf_node": "title_episode_episodenumber",
+        "similarity": 1.0,
+        "ancestor": "TitleEpisode",
+        "ancestor_name": "TitleEpisode",
+        "gt_variant": "titleepisode",
+        "ancestor_variant": "titleepisode"
+      },
+      {
+        "variable": "title_episode_parenttconst",
+        "gt_table": "title_episode",
+        "leaf_node": "title_episode_parenttconst",
+        "similarity": 1.0,
+        "ancestor": "TitleEpisode",
+        "ancestor_name": "TitleEpisode",
+        "gt_variant": "titleepisode",
+        "ancestor_variant": "titleepisode"
+      },
+      {
+        "variable": "title_episode_seasonnumber",
+        "gt_table": "title_episode",
+        "leaf_node": "title_episode_seasonnumber",
+        "similarity": 1.0,
+        "ancestor": "TitleEpisode",
+        "ancestor_name": "TitleEpisode",
+        "gt_variant": "titleepisode",
+        "ancestor_variant": "titleepisode"
+      },
+      {
+        "variable": "title_episode_tconst",
+        "gt_table": "title_episode",
+        "leaf_node": "title_episode_tconst",
+        "similarity": 1.0,
+        "ancestor": "TitleEpisode",
+        "ancestor_name": "TitleEpisode",
+        "gt_variant": "titleepisode",
+        "ancestor_variant": "titleepisode"
+      },
+      {
+        "variable": "title_principals_category",
+        "gt_table": "title_principals",
+        "leaf_node": "title_principals_category",
+        "similarity": 1.0,
+        "ancestor": "TitlePrincipals",
+        "ancestor_name": "TitlePrincipals",
+        "gt_variant": "titleprincipal",
+        "ancestor_variant": "titleprincipal"
+      },
+      {
+        "variable": "title_principals_characters",
+        "gt_table": "title_principals",
+        "leaf_node": "title_principals_characters",
+        "similarity": 1.0,
+        "ancestor": "TitlePrincipals",
+        "ancestor_name": "TitlePrincipals",
+        "gt_variant": "titleprincipal",
+        "ancestor_variant": "titleprincipal"
+      },
+      {
+        "variable": "title_principals_job",
+        "gt_table": "title_principals",
+        "leaf_node": "title_principals_job",
+        "similarity": 1.0,
+        "ancestor": "TitlePrincipals",
+        "ancestor_name": "TitlePrincipals",
+        "gt_variant": "titleprincipal",
+        "ancestor_variant": "titleprincipal"
+      },
+      {
+        "variable": "title_principals_nconst",
+        "gt_table": "title_principals",
+        "leaf_node": "title_principals_nconst",
+        "similarity": 1.0,
+        "ancestor": "TitlePrincipals",
+        "ancestor_name": "TitlePrincipals",
+        "gt_variant": "titleprincipal",
+        "ancestor_variant": "titleprincipal"
+      },
+      {
+        "variable": "title_principals_ordering",
+        "gt_table": "title_principals",
+        "leaf_node": "title_principals_ordering",
+        "similarity": 1.0,
+        "ancestor": "TitlePrincipals",
+        "ancestor_name": "TitlePrincipals",
+        "gt_variant": "titleprincipal",
+        "ancestor_variant": "titleprincipal"
+      },
+      {
+        "variable": "title_principals_tconst",
+        "gt_table": "title_principals",
+        "leaf_node": "title_principals_tconst",
+        "similarity": 1.0,
+        "ancestor": "TitlePrincipals",
+        "ancestor_name": "TitlePrincipals",
+        "gt_variant": "titleprincipal",
+        "ancestor_variant": "titleprincipal"
+      },
+      {
+        "variable": "title_ratings_averagerating",
+        "gt_table": "title_ratings",
+        "leaf_node": "title_ratings_averagerating",
+        "similarity": 1.0,
+        "ancestor": "TitleRatings",
+        "ancestor_name": "TitleRatings",
+        "gt_variant": "titlerating",
+        "ancestor_variant": "titlerating"
+      },
+      {
+        "variable": "title_ratings_numvotes",
+        "gt_table": "title_ratings",
+        "leaf_node": "title_ratings_numvotes",
+        "similarity": 1.0,
+        "ancestor": "TitleRatings",
+        "ancestor_name": "TitleRatings",
+        "gt_variant": "titlerating",
+        "ancestor_variant": "titlerating"
+      },
+      {
+        "variable": "title_ratings_tconst",
+        "gt_table": "title_ratings",
+        "leaf_node": "title_ratings_tconst",
+        "similarity": 1.0,
+        "ancestor": "TitleRatings",
+        "ancestor_name": "TitleRatings",
+        "gt_variant": "titlerating",
+        "ancestor_variant": "titlerating"
+      }
+    ],
+    "incorrect": []
+  }
+}

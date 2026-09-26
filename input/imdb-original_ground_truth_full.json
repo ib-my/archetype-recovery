@@ -1,0 +1,235 @@
+{
+  "name_basics": {
+    "columns": [
+      "name_basics_birthyear",
+      "name_basics_deathyear",
+      "name_basics_knownfortitles",
+      "name_basics_nconst",
+      "name_basics_primaryname",
+      "name_basics_primaryprofession"
+    ],
+    "types": {
+      "name_basics_birthyear": "VARCHAR(45)",
+      "name_basics_deathyear": "VARCHAR(45)",
+      "name_basics_knownfortitles": "VARCHAR(128)",
+      "name_basics_nconst": "VARCHAR(128)",
+      "name_basics_primaryname": "VARCHAR(128)",
+      "name_basics_primaryprofession": "VARCHAR(128)"
+    },
+    "table_comment": "Table containing basic information about people in IMDb",
+    "column_comments": {
+      "name_basics_birthyear": "birth year (YYYY)",
+      "name_basics_deathyear": "death year if applicable, else",
+      "name_basics_knownfortitles": "titles the person is known for (array of tconsts)",
+      "name_basics_nconst": "alphanumeric unique identifier of the name/person (string)",
+      "name_basics_primaryname": "name by which the person is most often credited (string)",
+      "name_basics_primaryprofession": "the top-3 professions of the person (array of strings)"
+    },
+    "original_column_names": {
+      "name_basics_birthyear": "birthyear",
+      "name_basics_deathyear": "deathyear",
+      "name_basics_knownfortitles": "knownfortitles",
+      "name_basics_nconst": "nconst",
+      "name_basics_primaryname": "primaryname",
+      "name_basics_primaryprofession": "primaryprofession"
+    }
+  },
+  "title_akas": {
+    "columns": [
+      "title_akas_attributes",
+      "title_akas_isoriginaltitle",
+      "title_akas_language",
+      "title_akas_ordering",
+      "title_akas_region",
+      "title_akas_title",
+      "title_akas_titleid",
+      "title_akas_types"
+    ],
+    "types": {
+      "title_akas_attributes": "VARCHAR(512)",
+      "title_akas_isoriginaltitle": "VARCHAR(45)",
+      "title_akas_language": "VARCHAR(128)",
+      "title_akas_ordering": "VARCHAR(128)",
+      "title_akas_region": "VARCHAR(128)",
+      "title_akas_title": "TEXT",
+      "title_akas_titleid": "VARCHAR(128)",
+      "title_akas_types": "VARCHAR(512)"
+    },
+    "table_comment": "Table containing alternate titles for IMDb entries",
+    "column_comments": {
+      "title_akas_attributes": "Additional terms to describe this alternative title (array), not enumerated",
+      "title_akas_isoriginaltitle": "0: not original title. 1: original title (boolean)",
+      "title_akas_language": "the language of the title (string)",
+      "title_akas_ordering": "a number to uniquely identify rows for a given titleId (integer)",
+      "title_akas_region": "the region for this version of the title (string)",
+      "title_akas_title": "the localized title (string)",
+      "title_akas_titleid": "a tconst (string, an alphanumeric unique identifier of the title)",
+      "title_akas_types": "Enumerated set of attributes for this alternative title (array). One or more of the following: \"alternative\", \"dvd\", \"festival\", \"tv\", \"video\", \"working\", \"original\", \"imdbDisplay\". New values may be added in the future without warning"
+    },
+    "original_column_names": {
+      "title_akas_attributes": "attributes",
+      "title_akas_isoriginaltitle": "isoriginaltitle",
+      "title_akas_language": "language",
+      "title_akas_ordering": "ordering",
+      "title_akas_region": "region",
+      "title_akas_title": "title",
+      "title_akas_titleid": "titleid",
+      "title_akas_types": "types"
+    }
+  },
+  "title_basics": {
+    "columns": [
+      "title_basics_endyear",
+      "title_basics_genres",
+      "title_basics_isadult",
+      "title_basics_originaltitle",
+      "title_basics_primarytitle",
+      "title_basics_runtimeminutes",
+      "title_basics_startyear",
+      "title_basics_tconst",
+      "title_basics_titletype"
+    ],
+    "types": {
+      "title_basics_endyear": "VARCHAR(45)",
+      "title_basics_genres": "VARCHAR(256)",
+      "title_basics_isadult": "VARCHAR(32)",
+      "title_basics_originaltitle": "VARCHAR(512)",
+      "title_basics_primarytitle": "VARCHAR(512)",
+      "title_basics_runtimeminutes": "VARCHAR(45)",
+      "title_basics_startyear": "VARCHAR(45)",
+      "title_basics_tconst": "VARCHAR(64)",
+      "title_basics_titletype": "VARCHAR(64)"
+    },
+    "table_comment": "Table containing basic information about IMDb titles",
+    "column_comments": {
+      "title_basics_endyear": "TV Series end year (YYYY). ‘\\N’ for all other title types",
+      "title_basics_genres": "includes up to three genres associated with the title (string array)",
+      "title_basics_isadult": "0: non-adult title. 1: adult title (boolean)",
+      "title_basics_originaltitle": "original title (string) (in the original language)",
+      "title_basics_primarytitle": "the more popular title (string) (the title used by the filmmakers on promotional materials at the point of release)",
+      "title_basics_runtimeminutes": "primary runtime of the title (integer, in minutes)",
+      "title_basics_startyear": "represents the release year of a title (YYYY). In the case of TV Series, it is the series start year",
+      "title_basics_tconst": "alphanumeric unique identifier of the title (string)",
+      "title_basics_titletype": "the type/format of the title (string) (e.g. movie, short, tvseries, tvepisode, video, etc)"
+    },
+    "original_column_names": {
+      "title_basics_endyear": "endyear",
+      "title_basics_genres": "genres",
+      "title_basics_isadult": "isadult",
+      "title_basics_originaltitle": "originaltitle",
+      "title_basics_primarytitle": "primarytitle",
+      "title_basics_runtimeminutes": "runtimeminutes",
+      "title_basics_startyear": "startyear",
+      "title_basics_tconst": "tconst",
+      "title_basics_titletype": "titletype"
+    }
+  },
+  "title_crew": {
+    "columns": [
+      "title_crew_directors",
+      "title_crew_tconst",
+      "title_crew_writers"
+    ],
+    "types": {
+      "title_crew_directors": "TEXT",
+      "title_crew_tconst": "VARCHAR(128)",
+      "title_crew_writers": "TEXT"
+    },
+    "table_comment": "Table containing crew information for IMDb titles",
+    "column_comments": {
+      "title_crew_directors": "director(s) of the given title (array of nconsts)",
+      "title_crew_tconst": "alphanumeric unique identifier of the title (string)",
+      "title_crew_writers": "writer(s) of the given title (array of nconsts)"
+    },
+    "original_column_names": {
+      "title_crew_directors": "directors",
+      "title_crew_tconst": "tconst",
+      "title_crew_writers": "writers"
+    }
+  },
+  "title_episode": {
+    "columns": [
+      "title_episode_episodenumber",
+      "title_episode_parenttconst",
+      "title_episode_seasonnumber",
+      "title_episode_tconst"
+    ],
+    "types": {
+      "title_episode_episodenumber": "TEXT",
+      "title_episode_parenttconst": "VARCHAR(128)",
+      "title_episode_seasonnumber": "TEXT",
+      "title_episode_tconst": "VARCHAR(128)"
+    },
+    "table_comment": "Table containing episode information for TV series in IMDb",
+    "column_comments": {
+      "title_episode_episodenumber": "episode number of the tconst in the TV series (integer)",
+      "title_episode_parenttconst": "alphanumeric identifier of the parent TV Series (string)",
+      "title_episode_seasonnumber": "season number the episode belongs to (integer)",
+      "title_episode_tconst": "alphanumeric identifier of episode (string)"
+    },
+    "original_column_names": {
+      "title_episode_episodenumber": "episodenumber",
+      "title_episode_parenttconst": "parenttconst",
+      "title_episode_seasonnumber": "seasonnumber",
+      "title_episode_tconst": "tconst"
+    }
+  },
+  "title_principals": {
+    "columns": [
+      "title_principals_category",
+      "title_principals_characters",
+      "title_principals_job",
+      "title_principals_nconst",
+      "title_principals_ordering",
+      "title_principals_tconst"
+    ],
+    "types": {
+      "title_principals_category": "TEXT",
+      "title_principals_characters": "TEXT",
+      "title_principals_job": "TEXT",
+      "title_principals_nconst": "VARCHAR(128)",
+      "title_principals_ordering": "VARCHAR(45)",
+      "title_principals_tconst": "VARCHAR(128)"
+    },
+    "table_comment": "Table containing principal cast and crew information for IMDb titles",
+    "column_comments": {
+      "title_principals_category": "the category of job that person was in (string)",
+      "title_principals_characters": "the name of the character played if applicable, else",
+      "title_principals_job": "the specific job title if applicable, else",
+      "title_principals_nconst": "alphanumeric unique identifier of the name/person (string)",
+      "title_principals_ordering": "a number to uniquely identify rows for a given titleId (integer)",
+      "title_principals_tconst": "alphanumeric unique identifier of the title (string)"
+    },
+    "original_column_names": {
+      "title_principals_category": "category",
+      "title_principals_characters": "characters",
+      "title_principals_job": "job",
+      "title_principals_nconst": "nconst",
+      "title_principals_ordering": "ordering",
+      "title_principals_tconst": "tconst"
+    }
+  },
+  "title_ratings": {
+    "columns": [
+      "title_ratings_averagerating",
+      "title_ratings_numvotes",
+      "title_ratings_tconst"
+    ],
+    "types": {
+      "title_ratings_averagerating": "VARCHAR(45)",
+      "title_ratings_numvotes": "VARCHAR(45)",
+      "title_ratings_tconst": "VARCHAR(128)"
+    },
+    "table_comment": "Table containing user ratings for IMDb titles",
+    "column_comments": {
+      "title_ratings_averagerating": "weighted average of all the individual user ratings (float)",
+      "title_ratings_numvotes": "number of votes the title has received (integer)",
+      "title_ratings_tconst": "alphanumeric unique identifier of the title (string)"
+    },
+    "original_column_names": {
+      "title_ratings_averagerating": "averagerating",
+      "title_ratings_numvotes": "numvotes",
+      "title_ratings_tconst": "tconst"
+    }
+  }
+}

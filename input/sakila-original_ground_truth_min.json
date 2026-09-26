@@ -1,0 +1,124 @@
+{
+  "actor": [
+    "actor_actor_id",
+    "actor_first_name",
+    "actor_last_name",
+    "actor_last_update"
+  ],
+  "address": [
+    "address_address",
+    "address_address2",
+    "address_address_id",
+    "address_city_id",
+    "address_district",
+    "address_last_update",
+    "address_location",
+    "address_phone",
+    "address_postal_code"
+  ],
+  "category": [
+    "category_category_id",
+    "category_last_update",
+    "category_name"
+  ],
+  "city": [
+    "city_city",
+    "city_city_id",
+    "city_country_id",
+    "city_last_update"
+  ],
+  "country": [
+    "country_country",
+    "country_country_id",
+    "country_last_update"
+  ],
+  "customer": [
+    "customer_active",
+    "customer_address_id",
+    "customer_create_date",
+    "customer_customer_id",
+    "customer_email",
+    "customer_first_name",
+    "customer_last_name",
+    "customer_last_update",
+    "customer_store_id"
+  ],
+  "film": [
+    "film_description",
+    "film_film_id",
+    "film_language_id",
+    "film_last_update",
+    "film_length",
+    "film_original_language_id",
+    "film_rating",
+    "film_release_year",
+    "film_rental_duration",
+    "film_rental_rate",
+    "film_replacement_cost",
+    "film_special_features",
+    "film_title"
+  ],
+  "film_actor": [
+    "film_actor_actor_id",
+    "film_actor_film_id",
+    "film_actor_last_update"
+  ],
+  "film_category": [
+    "film_category_category_id",
+    "film_category_film_id",
+    "film_category_last_update"
+  ],
+  "film_text": [
+    "film_text_description",
+    "film_text_film_id",
+    "film_text_title"
+  ],
+  "inventory": [
+    "inventory_film_id",
+    "inventory_inventory_id",
+    "inventory_last_update",
+    "inventory_store_id"
+  ],
+  "language": [
+    "language_language_id",
+    "language_last_update",
+    "language_name"
+  ],
+  "payment": [
+    "payment_amount",
+    "payment_customer_id",
+    "payment_last_update",
+    "payment_payment_date",
+    "payment_payment_id",
+    "payment_rental_id",
+    "payment_staff_id"
+  ],
+  "rental": [
+    "rental_customer_id",
+    "rental_inventory_id",
+    "rental_last_update",
+    "rental_rental_date",
+    "rental_rental_id",
+    "rental_return_date",
+    "rental_staff_id"
+  ],
+  "staff": [
+    "staff_active",
+    "staff_address_id",
+    "staff_email",
+    "staff_first_name",
+    "staff_last_name",
+    "staff_last_update",
+    "staff_password",
+    "staff_picture",
+    "staff_staff_id",
+    "staff_store_id",
+    "staff_username"
+  ],
+  "store": [
+    "store_address_id",
+    "store_last_update",
+    "store_manager_staff_id",
+    "store_store_id"
+  ]
+}

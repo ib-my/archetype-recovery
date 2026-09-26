@@ -1,0 +1,495 @@
+{
+  "status": "completed",
+  "result": {
+    "nodes": [
+      {
+        "id": "Root",
+        "label": "Root",
+        "depth": 0,
+        "colour": "#0ea5e9"
+      },
+      {
+        "id": "Person_AssociatedTitles",
+        "label": "Associated Titles",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "Person_Demographics",
+        "label": "Demographics",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "Person_Identifiers",
+        "label": "Person_Identifiers",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "Person_Professions",
+        "label": "Professions",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "Title",
+        "label": "Title",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "Title_Crew",
+        "label": "Title_Crew",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "Title_Principals",
+        "label": "Title_Principals",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "Title_Ratings",
+        "label": "Title_Ratings",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "Title_Ratings_Scores",
+        "label": "Title_Ratings_Scores",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "name_basics_birthyear",
+        "label": "name_basics_birthyear",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "name_basics_deathyear",
+        "label": "name_basics_deathyear",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "name_basics_knownfortitles",
+        "label": "name_basics_knownfortitles",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "name_basics_nconst",
+        "label": "name_basics_nconst",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "name_basics_primaryname",
+        "label": "name_basics_primaryname",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "name_basics_primaryprofession",
+        "label": "name_basics_primaryprofession",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_akas_attributes",
+        "label": "title_akas_attributes",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_akas_isoriginaltitle",
+        "label": "title_akas_isoriginaltitle",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_akas_language",
+        "label": "title_akas_language",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_akas_ordering",
+        "label": "title_akas_ordering",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_akas_region",
+        "label": "title_akas_region",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_akas_title",
+        "label": "title_akas_title",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_akas_titleid",
+        "label": "title_akas_titleid",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_akas_types",
+        "label": "title_akas_types",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_basics_endyear",
+        "label": "title_basics_endyear",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_basics_genres",
+        "label": "title_basics_genres",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_basics_isadult",
+        "label": "title_basics_isadult",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_basics_originaltitle",
+        "label": "title_basics_originaltitle",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_basics_primarytitle",
+        "label": "title_basics_primarytitle",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_basics_runtimeminutes",
+        "label": "title_basics_runtimeminutes",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_basics_startyear",
+        "label": "title_basics_startyear",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_basics_tconst",
+        "label": "title_basics_tconst",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_basics_titletype",
+        "label": "title_basics_titletype",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_crew_directors",
+        "label": "title_crew_directors",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_crew_tconst",
+        "label": "title_crew_tconst",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_crew_writers",
+        "label": "title_crew_writers",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_episode_episodenumber",
+        "label": "title_episode_episodenumber",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_episode_parenttconst",
+        "label": "title_episode_parenttconst",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_episode_seasonnumber",
+        "label": "title_episode_seasonnumber",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_episode_tconst",
+        "label": "title_episode_tconst",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_principals_category",
+        "label": "title_principals_category",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_principals_characters",
+        "label": "title_principals_characters",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_principals_job",
+        "label": "title_principals_job",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_principals_nconst",
+        "label": "title_principals_nconst",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_principals_ordering",
+        "label": "title_principals_ordering",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_principals_tconst",
+        "label": "title_principals_tconst",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_ratings_averagerating",
+        "label": "title_ratings_averagerating",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_ratings_numvotes",
+        "label": "title_ratings_numvotes",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "title_ratings_tconst",
+        "label": "title_ratings_tconst",
+        "depth": 2,
+        "colour": "#ec4899"
+      }
+    ],
+    "edges": [
+      {
+        "source": "Root",
+        "target": "Person_AssociatedTitles"
+      },
+      {
+        "source": "Root",
+        "target": "Person_Demographics"
+      },
+      {
+        "source": "Root",
+        "target": "Person_Identifiers"
+      },
+      {
+        "source": "Root",
+        "target": "Person_Professions"
+      },
+      {
+        "source": "Root",
+        "target": "Title"
+      },
+      {
+        "source": "Root",
+        "target": "Title_Crew"
+      },
+      {
+        "source": "Root",
+        "target": "Title_Principals"
+      },
+      {
+        "source": "Root",
+        "target": "Title_Ratings"
+      },
+      {
+        "source": "Root",
+        "target": "Title_Ratings_Scores"
+      },
+      {
+        "source": "Person_AssociatedTitles",
+        "target": "name_basics_knownfortitles"
+      },
+      {
+        "source": "Person_Demographics",
+        "target": "name_basics_birthyear"
+      },
+      {
+        "source": "Person_Demographics",
+        "target": "name_basics_deathyear"
+      },
+      {
+        "source": "Person_Identifiers",
+        "target": "name_basics_nconst"
+      },
+      {
+        "source": "Person_Identifiers",
+        "target": "name_basics_primaryname"
+      },
+      {
+        "source": "Person_Professions",
+        "target": "name_basics_primaryprofession"
+      },
+      {
+        "source": "Title",
+        "target": "title_akas_attributes"
+      },
+      {
+        "source": "Title",
+        "target": "title_akas_isoriginaltitle"
+      },
+      {
+        "source": "Title",
+        "target": "title_akas_language"
+      },
+      {
+        "source": "Title",
+        "target": "title_akas_ordering"
+      },
+      {
+        "source": "Title",
+        "target": "title_akas_region"
+      },
+      {
+        "source": "Title",
+        "target": "title_akas_title"
+      },
+      {
+        "source": "Title",
+        "target": "title_akas_titleid"
+      },
+      {
+        "source": "Title",
+        "target": "title_akas_types"
+      },
+      {
+        "source": "Title",
+        "target": "title_basics_endyear"
+      },
+      {
+        "source": "Title",
+        "target": "title_basics_genres"
+      },
+      {
+        "source": "Title",
+        "target": "title_basics_isadult"
+      },
+      {
+        "source": "Title",
+        "target": "title_basics_originaltitle"
+      },
+      {
+        "source": "Title",
+        "target": "title_basics_primarytitle"
+      },
+      {
+        "source": "Title",
+        "target": "title_basics_runtimeminutes"
+      },
+      {
+        "source": "Title",
+        "target": "title_basics_startyear"
+      },
+      {
+        "source": "Title",
+        "target": "title_basics_tconst"
+      },
+      {
+        "source": "Title",
+        "target": "title_basics_titletype"
+      },
+      {
+        "source": "Title",
+        "target": "title_episode_episodenumber"
+      },
+      {
+        "source": "Title",
+        "target": "title_episode_parenttconst"
+      },
+      {
+        "source": "Title",
+        "target": "title_episode_seasonnumber"
+      },
+      {
+        "source": "Title",
+        "target": "title_episode_tconst"
+      },
+      {
+        "source": "Title_Crew",
+        "target": "title_crew_directors"
+      },
+      {
+        "source": "Title_Crew",
+        "target": "title_crew_tconst"
+      },
+      {
+        "source": "Title_Crew",
+        "target": "title_crew_writers"
+      },
+      {
+        "source": "Title_Principals",
+        "target": "title_principals_category"
+      },
+      {
+        "source": "Title_Principals",
+        "target": "title_principals_characters"
+      },
+      {
+        "source": "Title_Principals",
+        "target": "title_principals_job"
+      },
+      {
+        "source": "Title_Principals",
+        "target": "title_principals_nconst"
+      },
+      {
+        "source": "Title_Principals",
+        "target": "title_principals_ordering"
+      },
+      {
+        "source": "Title_Principals",
+        "target": "title_principals_tconst"
+      },
+      {
+        "source": "Title_Ratings",
+        "target": "title_ratings_tconst"
+      },
+      {
+        "source": "Title_Ratings_Scores",
+        "target": "title_ratings_averagerating"
+      },
+      {
+        "source": "Title_Ratings_Scores",
+        "target": "title_ratings_numvotes"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1095 @@
+{
+  "status": "completed",
+  "result": {
+    "nodes": [
+      {
+        "id": "Root",
+        "label": "Root",
+        "depth": 0,
+        "colour": "#0ea5e9"
+      },
+      {
+        "id": "beneficiary",
+        "label": "Beneficiary",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "claims",
+        "label": "Claims",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "claims_carrier",
+        "label": "Carrier Claims",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "claims_inpatient_ids",
+        "label": "claims_inpatient_ids",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "claims_outpatient",
+        "label": "Outpatient Claims",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "claims_outpatient_codes",
+        "label": "claims_outpatient_codes",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "claims_outpatient_dates",
+        "label": "claims_outpatient_dates",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "claims_outpatient_details",
+        "label": "claims_outpatient_details",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "claims_outpatient_ids",
+        "label": "claims_outpatient_ids",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "identifiers",
+        "label": "Identifiers",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "identifiers_beneficiary",
+        "label": "Beneficiary",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "prescription_drug_events",
+        "label": "prescription_drug_events",
+        "depth": 1,
+        "colour": "#eab308"
+      },
+      {
+        "id": "beneficiarysummary_bene_birth_dt",
+        "label": "beneficiarysummary_bene_birth_dt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_bene_county_cd",
+        "label": "beneficiarysummary_bene_county_cd",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_bene_death_dt",
+        "label": "beneficiarysummary_bene_death_dt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_bene_esrd_ind",
+        "label": "beneficiarysummary_bene_esrd_ind",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_bene_hi_cvrage_tot_mons",
+        "label": "beneficiarysummary_bene_hi_cvrage_tot_mons",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_bene_hmo_cvrage_tot_mons",
+        "label": "beneficiarysummary_bene_hmo_cvrage_tot_mons",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_bene_race_cd",
+        "label": "beneficiarysummary_bene_race_cd",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_bene_sex_ident_cd",
+        "label": "beneficiarysummary_bene_sex_ident_cd",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_bene_smi_cvrage_tot_mons",
+        "label": "beneficiarysummary_bene_smi_cvrage_tot_mons",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_benres_car",
+        "label": "beneficiarysummary_benres_car",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_benres_ip",
+        "label": "beneficiarysummary_benres_ip",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_benres_op",
+        "label": "beneficiarysummary_benres_op",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_desynpuf_id",
+        "label": "beneficiarysummary_desynpuf_id",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_medreimb_car",
+        "label": "beneficiarysummary_medreimb_car",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_medreimb_ip",
+        "label": "beneficiarysummary_medreimb_ip",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_medreimb_op",
+        "label": "beneficiarysummary_medreimb_op",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_plan_cvrg_mos_num",
+        "label": "beneficiarysummary_plan_cvrg_mos_num",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_pppymt_car",
+        "label": "beneficiarysummary_pppymt_car",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_pppymt_ip",
+        "label": "beneficiarysummary_pppymt_ip",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_pppymt_op",
+        "label": "beneficiarysummary_pppymt_op",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_sp_alzhdmta",
+        "label": "beneficiarysummary_sp_alzhdmta",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_sp_chf",
+        "label": "beneficiarysummary_sp_chf",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_sp_chrnkidn",
+        "label": "beneficiarysummary_sp_chrnkidn",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_sp_cncr",
+        "label": "beneficiarysummary_sp_cncr",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_sp_copd",
+        "label": "beneficiarysummary_sp_copd",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_sp_depressn",
+        "label": "beneficiarysummary_sp_depressn",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_sp_diabetes",
+        "label": "beneficiarysummary_sp_diabetes",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_sp_ischmcht",
+        "label": "beneficiarysummary_sp_ischmcht",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_sp_osteoprs",
+        "label": "beneficiarysummary_sp_osteoprs",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_sp_ra_oa",
+        "label": "beneficiarysummary_sp_ra_oa",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_sp_state_code",
+        "label": "beneficiarysummary_sp_state_code",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "beneficiarysummary_sp_strketia",
+        "label": "beneficiarysummary_sp_strketia",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "carrierclaims_clm_from_dt",
+        "label": "carrierclaims_clm_from_dt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "carrierclaims_clm_id",
+        "label": "carrierclaims_clm_id",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "carrierclaims_clm_thru_dt",
+        "label": "carrierclaims_clm_thru_dt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "carrierclaims_desynpuf_id",
+        "label": "carrierclaims_desynpuf_id",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "carrierclaims_hcpcs_cd",
+        "label": "carrierclaims_hcpcs_cd",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "carrierclaims_icd9_dgns_cd",
+        "label": "carrierclaims_icd9_dgns_cd",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "carrierclaims_line_alowd_chrg_amt",
+        "label": "carrierclaims_line_alowd_chrg_amt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "carrierclaims_line_bene_prmry_pyr_pd_amt",
+        "label": "carrierclaims_line_bene_prmry_pyr_pd_amt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "carrierclaims_line_bene_ptb_ddctbl_amt",
+        "label": "carrierclaims_line_bene_ptb_ddctbl_amt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "carrierclaims_line_coinsrnc_amt",
+        "label": "carrierclaims_line_coinsrnc_amt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "carrierclaims_line_icd9_dgns_cd",
+        "label": "carrierclaims_line_icd9_dgns_cd",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "carrierclaims_line_nch_pmt_amt",
+        "label": "carrierclaims_line_nch_pmt_amt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "carrierclaims_line_prcsg_ind_cd",
+        "label": "carrierclaims_line_prcsg_ind_cd",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "carrierclaims_prf_physn_npi",
+        "label": "carrierclaims_prf_physn_npi",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "carrierclaims_tax_num",
+        "label": "carrierclaims_tax_num",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "inpatientclaims_admtng_icd9_dgns_cd",
+        "label": "inpatientclaims_admtng_icd9_dgns_cd",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "inpatientclaims_at_physn_npi",
+        "label": "inpatientclaims_at_physn_npi",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "inpatientclaims_clm_admsn_dt",
+        "label": "inpatientclaims_clm_admsn_dt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "inpatientclaims_clm_drg_cd",
+        "label": "inpatientclaims_clm_drg_cd",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "inpatientclaims_clm_from_dt",
+        "label": "inpatientclaims_clm_from_dt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "inpatientclaims_clm_id",
+        "label": "inpatientclaims_clm_id",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "inpatientclaims_clm_pass_thru_per_diem_amt",
+        "label": "inpatientclaims_clm_pass_thru_per_diem_amt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "inpatientclaims_clm_pmt_amt",
+        "label": "inpatientclaims_clm_pmt_amt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "inpatientclaims_clm_thru_dt",
+        "label": "inpatientclaims_clm_thru_dt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "inpatientclaims_clm_utlztn_day_cnt",
+        "label": "inpatientclaims_clm_utlztn_day_cnt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "inpatientclaims_desynpuf_id",
+        "label": "inpatientclaims_desynpuf_id",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "inpatientclaims_hcpcs_cd",
+        "label": "inpatientclaims_hcpcs_cd",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "inpatientclaims_icd9_dgns_cd",
+        "label": "inpatientclaims_icd9_dgns_cd",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "inpatientclaims_icd9_prcdr_cd",
+        "label": "inpatientclaims_icd9_prcdr_cd",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "inpatientclaims_nch_bene_blood_ddctbl_lblty_am",
+        "label": "inpatientclaims_nch_bene_blood_ddctbl_lblty_am",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "inpatientclaims_nch_bene_dschrg_dt",
+        "label": "inpatientclaims_nch_bene_dschrg_dt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "inpatientclaims_nch_bene_ip_ddctbl_amt",
+        "label": "inpatientclaims_nch_bene_ip_ddctbl_amt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "inpatientclaims_nch_bene_pta_coinsrnc_lblty_am",
+        "label": "inpatientclaims_nch_bene_pta_coinsrnc_lblty_am",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "inpatientclaims_nch_prmry_pyr_clm_pd_amt",
+        "label": "inpatientclaims_nch_prmry_pyr_clm_pd_amt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "inpatientclaims_op_physn_npi",
+        "label": "inpatientclaims_op_physn_npi",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "inpatientclaims_ot_physn_npi",
+        "label": "inpatientclaims_ot_physn_npi",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "inpatientclaims_prvdr_num",
+        "label": "inpatientclaims_prvdr_num",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "inpatientclaims_segment",
+        "label": "inpatientclaims_segment",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "outpatientclaims_admtng_icd9_dgns_cd",
+        "label": "outpatientclaims_admtng_icd9_dgns_cd",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "outpatientclaims_at_physn_npi",
+        "label": "outpatientclaims_at_physn_npi",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "outpatientclaims_clm_from_dt",
+        "label": "outpatientclaims_clm_from_dt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "outpatientclaims_clm_id",
+        "label": "outpatientclaims_clm_id",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "outpatientclaims_clm_pmt_amt",
+        "label": "outpatientclaims_clm_pmt_amt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "outpatientclaims_clm_thru_dt",
+        "label": "outpatientclaims_clm_thru_dt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "outpatientclaims_desynpuf_id",
+        "label": "outpatientclaims_desynpuf_id",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "outpatientclaims_hcpcs_cd",
+        "label": "outpatientclaims_hcpcs_cd",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "outpatientclaims_icd9_dgns_cd",
+        "label": "outpatientclaims_icd9_dgns_cd",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "outpatientclaims_icd9_prcdr_cd",
+        "label": "outpatientclaims_icd9_prcdr_cd",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "outpatientclaims_nch_bene_blood_ddctbl_lblty_am",
+        "label": "outpatientclaims_nch_bene_blood_ddctbl_lblty_am",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "outpatientclaims_nch_bene_ptb_coinsrnc_amt",
+        "label": "outpatientclaims_nch_bene_ptb_coinsrnc_amt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "outpatientclaims_nch_bene_ptb_ddctbl_amt",
+        "label": "outpatientclaims_nch_bene_ptb_ddctbl_amt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "outpatientclaims_nch_prmry_pyr_clm_pd_amt",
+        "label": "outpatientclaims_nch_prmry_pyr_clm_pd_amt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "outpatientclaims_op_physn_npi",
+        "label": "outpatientclaims_op_physn_npi",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "outpatientclaims_ot_physn_npi",
+        "label": "outpatientclaims_ot_physn_npi",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "outpatientclaims_prvdr_num",
+        "label": "outpatientclaims_prvdr_num",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "outpatientclaims_segment",
+        "label": "outpatientclaims_segment",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "prescriptiondrugevents_days_suply_num",
+        "label": "prescriptiondrugevents_days_suply_num",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "prescriptiondrugevents_desynpuf_id",
+        "label": "prescriptiondrugevents_desynpuf_id",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "prescriptiondrugevents_pde_id",
+        "label": "prescriptiondrugevents_pde_id",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "prescriptiondrugevents_prod_srvc_id",
+        "label": "prescriptiondrugevents_prod_srvc_id",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "prescriptiondrugevents_ptnt_pay_amt",
+        "label": "prescriptiondrugevents_ptnt_pay_amt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "prescriptiondrugevents_qty_dspnsd_num",
+        "label": "prescriptiondrugevents_qty_dspnsd_num",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "prescriptiondrugevents_srvc_dt",
+        "label": "prescriptiondrugevents_srvc_dt",
+        "depth": 2,
+        "colour": "#ec4899"
+      },
+      {
+        "id": "prescriptiondrugevents_tot_rx_cst_amt",
+        "label": "prescriptiondrugevents_tot_rx_cst_amt",
+        "depth": 2,
+        "colour": "#ec4899"
+      }
+    ],
+    "edges": [
+      {
+        "source": "Root",
+        "target": "beneficiary"
+      },
+      {
+        "source": "Root",
+        "target": "claims"
+      },
+      {
+        "source": "Root",
+        "target": "claims_carrier"
+      },
+      {
+        "source": "Root",
+        "target": "claims_inpatient_ids"
+      },
+      {
+        "source": "Root",
+        "target": "claims_outpatient"
+      },
+      {
+        "source": "Root",
+        "target": "claims_outpatient_codes"
+      },
+      {
+        "source": "Root",
+        "target": "claims_outpatient_dates"
+      },
+      {
+        "source": "Root",
+        "target": "claims_outpatient_details"
+      },
+      {
+        "source": "Root",
+        "target": "claims_outpatient_ids"
+      },
+      {
+        "source": "Root",
+        "target": "identifiers"
+      },
+      {
+        "source": "Root",
+        "target": "identifiers_beneficiary"
+      },
+      {
+        "source": "Root",
+        "target": "prescription_drug_events"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_bene_birth_dt"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_bene_county_cd"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_bene_death_dt"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_bene_esrd_ind"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_bene_hi_cvrage_tot_mons"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_bene_hmo_cvrage_tot_mons"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_bene_race_cd"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_bene_sex_ident_cd"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_bene_smi_cvrage_tot_mons"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_benres_car"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_benres_ip"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_benres_op"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_medreimb_car"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_medreimb_ip"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_medreimb_op"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_plan_cvrg_mos_num"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_pppymt_car"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_pppymt_ip"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_pppymt_op"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_sp_alzhdmta"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_sp_chf"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_sp_chrnkidn"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_sp_cncr"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_sp_copd"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_sp_depressn"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_sp_diabetes"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_sp_ischmcht"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_sp_osteoprs"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_sp_ra_oa"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_sp_state_code"
+      },
+      {
+        "source": "beneficiary",
+        "target": "beneficiarysummary_sp_strketia"
+      },
+      {
+        "source": "claims",
+        "target": "inpatientclaims_admtng_icd9_dgns_cd"
+      },
+      {
+        "source": "claims",
+        "target": "inpatientclaims_at_physn_npi"
+      },
+      {
+        "source": "claims",
+        "target": "inpatientclaims_clm_admsn_dt"
+      },
+      {
+        "source": "claims",
+        "target": "inpatientclaims_clm_drg_cd"
+      },
+      {
+        "source": "claims",
+        "target": "inpatientclaims_clm_from_dt"
+      },
+      {
+        "source": "claims",
+        "target": "inpatientclaims_clm_pass_thru_per_diem_amt"
+      },
+      {
+        "source": "claims",
+        "target": "inpatientclaims_clm_pmt_amt"
+      },
+      {
+        "source": "claims",
+        "target": "inpatientclaims_clm_thru_dt"
+      },
+      {
+        "source": "claims",
+        "target": "inpatientclaims_clm_utlztn_day_cnt"
+      },
+      {
+        "source": "claims",
+        "target": "inpatientclaims_hcpcs_cd"
+      },
+      {
+        "source": "claims",
+        "target": "inpatientclaims_icd9_dgns_cd"
+      },
+      {
+        "source": "claims",
+        "target": "inpatientclaims_icd9_prcdr_cd"
+      },
+      {
+        "source": "claims",
+        "target": "inpatientclaims_nch_bene_blood_ddctbl_lblty_am"
+      },
+      {
+        "source": "claims",
+        "target": "inpatientclaims_nch_bene_dschrg_dt"
+      },
+      {
+        "source": "claims",
+        "target": "inpatientclaims_nch_bene_ip_ddctbl_amt"
+      },
+      {
+        "source": "claims",
+        "target": "inpatientclaims_nch_bene_pta_coinsrnc_lblty_am"
+      },
+      {
+        "source": "claims",
+        "target": "inpatientclaims_nch_prmry_pyr_clm_pd_amt"
+      },
+      {
+        "source": "claims",
+        "target": "inpatientclaims_op_physn_npi"
+      },
+      {
+        "source": "claims",
+        "target": "inpatientclaims_ot_physn_npi"
+      },
+      {
+        "source": "claims",
+        "target": "inpatientclaims_prvdr_num"
+      },
+      {
+        "source": "claims",
+        "target": "inpatientclaims_segment"
+      },
+      {
+        "source": "claims_carrier",
+        "target": "carrierclaims_clm_from_dt"
+      },
+      {
+        "source": "claims_carrier",
+        "target": "carrierclaims_clm_id"
+      },
+      {
+        "source": "claims_carrier",
+        "target": "carrierclaims_clm_thru_dt"
+      },
+      {
+        "source": "claims_carrier",
+        "target": "carrierclaims_hcpcs_cd"
+      },
+      {
+        "source": "claims_carrier",
+        "target": "carrierclaims_icd9_dgns_cd"
+      },
+      {
+        "source": "claims_carrier",
+        "target": "carrierclaims_line_alowd_chrg_amt"
+      },
+      {
+        "source": "claims_carrier",
+        "target": "carrierclaims_line_bene_prmry_pyr_pd_amt"
+      },
+      {
+        "source": "claims_carrier",
+        "target": "carrierclaims_line_bene_ptb_ddctbl_amt"
+      },
+      {
+        "source": "claims_carrier",
+        "target": "carrierclaims_line_coinsrnc_amt"
+      },
+      {
+        "source": "claims_carrier",
+        "target": "carrierclaims_line_icd9_dgns_cd"
+      },
+      {
+        "source": "claims_carrier",
+        "target": "carrierclaims_line_nch_pmt_amt"
+      },
+      {
+        "source": "claims_carrier",
+        "target": "carrierclaims_line_prcsg_ind_cd"
+      },
+      {
+        "source": "claims_carrier",
+        "target": "carrierclaims_prf_physn_npi"
+      },
+      {
+        "source": "claims_carrier",
+        "target": "carrierclaims_tax_num"
+      },
+      {
+        "source": "claims_inpatient_ids",
+        "target": "inpatientclaims_clm_id"
+      },
+      {
+        "source": "claims_outpatient",
+        "target": "outpatientclaims_at_physn_npi"
+      },
+      {
+        "source": "claims_outpatient",
+        "target": "outpatientclaims_clm_pmt_amt"
+      },
+      {
+        "source": "claims_outpatient",
+        "target": "outpatientclaims_nch_bene_blood_ddctbl_lblty_am"
+      },
+      {
+        "source": "claims_outpatient",
+        "target": "outpatientclaims_nch_bene_ptb_coinsrnc_amt"
+      },
+      {
+        "source": "claims_outpatient",
+        "target": "outpatientclaims_nch_bene_ptb_ddctbl_amt"
+      },
+      {
+        "source": "claims_outpatient",
+        "target": "outpatientclaims_nch_prmry_pyr_clm_pd_amt"
+      },
+      {
+        "source": "claims_outpatient",
+        "target": "outpatientclaims_op_physn_npi"
+      },
+      {
+        "source": "claims_outpatient",
+        "target": "outpatientclaims_ot_physn_npi"
+      },
+      {
+        "source": "claims_outpatient",
+        "target": "outpatientclaims_prvdr_num"
+      },
+      {
+        "source": "claims_outpatient_codes",
+        "target": "outpatientclaims_admtng_icd9_dgns_cd"
+      },
+      {
+        "source": "claims_outpatient_codes",
+        "target": "outpatientclaims_hcpcs_cd"
+      },
+      {
+        "source": "claims_outpatient_codes",
+        "target": "outpatientclaims_icd9_dgns_cd"
+      },
+      {
+        "source": "claims_outpatient_codes",
+        "target": "outpatientclaims_icd9_prcdr_cd"
+      },
+      {
+        "source": "claims_outpatient_dates",
+        "target": "outpatientclaims_clm_from_dt"
+      },
+      {
+        "source": "claims_outpatient_dates",
+        "target": "outpatientclaims_clm_thru_dt"
+      },
+      {
+        "source": "claims_outpatient_details",
+        "target": "outpatientclaims_segment"
+      },
+      {
+        "source": "claims_outpatient_ids",
+        "target": "outpatientclaims_clm_id"
+      },
+      {
+        "source": "identifiers",
+        "target": "inpatientclaims_desynpuf_id"
+      },
+      {
+        "source": "identifiers",
+        "target": "outpatientclaims_desynpuf_id"
+      },
+      {
+        "source": "identifiers_beneficiary",
+        "target": "beneficiarysummary_desynpuf_id"
+      },
+      {
+        "source": "identifiers_beneficiary",
+        "target": "carrierclaims_desynpuf_id"
+      },
+      {
+        "source": "identifiers_beneficiary",
+        "target": "prescriptiondrugevents_desynpuf_id"
+      },
+      {
+        "source": "prescription_drug_events",
+        "target": "prescriptiondrugevents_days_suply_num"
+      },
+      {
+        "source": "prescription_drug_events",
+        "target": "prescriptiondrugevents_pde_id"
+      },
+      {
+        "source": "prescription_drug_events",
+        "target": "prescriptiondrugevents_prod_srvc_id"
+      },
+      {
+        "source": "prescription_drug_events",
+        "target": "prescriptiondrugevents_ptnt_pay_amt"
+      },
+      {
+        "source": "prescription_drug_events",
+        "target": "prescriptiondrugevents_qty_dspnsd_num"
+      },
+      {
+        "source": "prescription_drug_events",
+        "target": "prescriptiondrugevents_srvc_dt"
+      },
+      {
+        "source": "prescription_drug_events",
+        "target": "prescriptiondrugevents_tot_rx_cst_amt"
+      }
+    ]
+  }
+}
