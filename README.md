@@ -1,7 +1,7 @@
 # Replication package
 
 This package recomputes the evaluation scores reported in the paper from the saved
-graphs (trees). It needs no network access and no connection to the system that
+graphs (trees). It requires no network access and no connection to the system that
 produced the graphs.
 
 ## Layout
@@ -21,13 +21,13 @@ run_all.sh / run_all.bat
 run_selected.sh
 ```
 
-Tree names: `setting` is `zero` (zero-shot) or `osl` (one-shot); `run` is `t1`, `t2`, ...;
-`system` is an anonymised model label (`system_A`, ...). Dataset names may contain
-underscores (e.g. `cprd_gold`); they are recognised from the file names in `input/`.
+Tree names: `setting` is `zero` (zero-shot) or `osl` (one-shot). `run` is `t1`, `t2`, ...,
+`system` is an anonymised model label (`system_A`, ...), dataset names may contain
+underscores (e.g. `cprd_gold`), they are recognised from the file names in `input/`.
 
 ## Setup
 
-Requires Python 3.11 or newer (tested on 3.11; the pinned libraries also have builds for 3.14).
+Requires Python 3.11 or newer (tested on 3.11, the pinned libraries also have builds for 3.14).
 
 ```bash
 python -m venv venv
@@ -47,7 +47,7 @@ Everything:
 ./run_all.sh          # Windows: run_all.bat
 ```
 
-Selected trials (any combination of filters; `--tag` keeps the full summary intact):
+Selected trials (any combination of filters, `--tag` keeps the full summary intact):
 
 ```bash
 python evaluator/score_evaluator.py --datasets cms cprd_gold
@@ -74,4 +74,4 @@ python evaluator/overall_evaluator.py --summary output/results/summary_osl.csv -
 
 In the overall table each cell is the mean of the metric for one model and setting:
 runs are averaged within each dataset, then datasets are averaged with equal weight.
-Mean and Spread are taken across models. Rounding to 3 dp happens only at the end.
+Mean and Spread are taken across models.
